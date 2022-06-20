@@ -1,0 +1,24 @@
+{
+    "name": "mint-packages/trash",
+    "description": "This package can be used to view soft deletes items of a Model.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MintPackages\\Trash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eelamayooran Raveendran",
+            "email": "eelamayooran.raveendran@mintellity.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MintPackages\\Trash\\TrashServiceProvider"
+            ]
+        }
+    }
+}
